@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LOGO</string>
+    <string name="healthy_life_style">Healthy Life Style</string>
+    <string name="show_date">show_date</string>
+    <string-array name="planets_array">
+        <item>+970</item>
+        <item>+972</item>
+        <item>+966</item>
+        <item>+965</item>
+        <item>+212</item>
+        <item>+44</item>
+        <item>+90</item>
+        <item>+20</item>
+    </string-array>
+</resources>
