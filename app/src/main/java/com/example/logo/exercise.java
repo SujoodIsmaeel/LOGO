@@ -43,15 +43,47 @@ textView1=findViewById(R.id.textView1);
     }
 
     private void initial6() {
+        btnhik.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent();
+                intent.setClass(exercise.this,Hiking.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void initial5() {
+        btnswim.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent();
+                intent.setClass(exercise.this,Swimming.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void initial4() {
+        btnwalking.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent();
+                intent.setClass(exercise.this,Walking.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void initial3() {
+        btnother.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent();
+                intent.setClass(exercise.this,Other.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void initial2() {
@@ -79,11 +111,11 @@ textView1=findViewById(R.id.textView1);
     }
 
     private void initial() {
-        btnwalking.setOnClickListener(new View.OnClickListener() {
+        btnmash.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent= new Intent();
-                intent.setClass(exercise.this,Walking.class);
+                intent.setClass(exercise.this,Machines.class);
                 startActivity(intent);
             }
         });

@@ -1,15 +1,43 @@
 <resources>
-    <string name="app_name">LOGO</string>
-    <string name="healthy_life_style">Healthy Life Style</string>
-    <string name="show_date">show_date</string>
-    <string-array name="planets_array">
-        <item>+970</item>
-        <item>+972</item>
-        <item>+966</item>
-        <item>+965</item>
-        <item>+212</item>
-        <item>+44</item>
-        <item>+90</item>
-        <item>+20</item>
+    <string name="logo">logo</string>
+    <string-array name="Advices1">
+        <item>Sleep</item>
+        <item>Water</item>
+        <item>Food</item>
+        <item>Sports</item>
+        <item>Heart beats</item>
+        <item>Breathing rate</item>
+        <item>Blood pressure</item>
+        <item>Body temperature</item>
+        <item>Stop smoking</item>
+        <item>In general</item>
+    </string-array>
+    <string-array name="description">
+        <item>The number of hours of healthy sleep
+            is 7 to 9 hours a day</item>
+        <item>The daily need for water is 2 to 3 liters</item>
+        <item>The normal range of calories for adults
+            is 1,600 to 3,000 calories per day The food
+            should contain vegetables,
+            starches and proteins, and keep the main
+            meals regularly,especially breakfast.</item>
+        <item>The normal rate of playing sports per day is
+            from 40 to 90 minutes per day, and it should
+            be two free days without sports</item>
+        <item>The normal heart rate for adults
+            is between 60 and 100 beats per minute</item>
+        <item>The normal rate of breathing in
+            a healthy adult at rest is between 12 to 16 breaths
+            per minute</item>
+        <item>The normal range for a healthy adult at
+            rest is 120/80 mm Hg</item>
+        <item>The normal body temperature for a healthy adult
+            is between 36.6 and 37.2°C.</item>
+        <item>You must stop smoking because it causes
+            many diseases such as heart diseases,
+            strokes and pulmonary diseases</item>
+        <item>In general, you should follow the advice
+            to live a healthy life, and you should check
+            your vital signs to check on your health</item>
     </string-array>
 </resources>

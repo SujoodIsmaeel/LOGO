@@ -18,7 +18,7 @@ public class Calender extends AppCompatActivity {
 
     private   CalendarView calendarView;
     // Calendar calendar;
-    private  Button button;
+
 
     private TextView textView;
 
@@ -26,8 +26,6 @@ public class Calender extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calender);
-
-        button = findViewById(R.id.button);
         calendarView = findViewById(R.id.calendarView);
         textView = findViewById(R.id.textView);
 

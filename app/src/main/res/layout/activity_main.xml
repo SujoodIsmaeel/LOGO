@@ -16,7 +16,7 @@
         android:layout_marginLeft="65dp"
         android:layout_marginBottom="100dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="@string/healthy_life_style"
+        android:text="Healthy Life Style"
         android:textSize="44sp"
         android:textStyle="italic"
          />

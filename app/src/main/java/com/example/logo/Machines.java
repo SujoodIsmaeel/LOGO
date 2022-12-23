@@ -24,7 +24,7 @@ public class Machines extends AppCompatActivity {
         setContentView(R.layout.activity_machines);
         video_view=findViewById(R.id.video_view);
         button=findViewById(R.id.button);
-        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.running;
+        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.gym;
         Uri uri = Uri.parse(videoPath);
         video_view.setVideoURI(uri);
 

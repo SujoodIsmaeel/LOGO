@@ -1,5 +1,7 @@
 package com.example.logo;
 
+
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -9,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity2 extends AppCompatActivity {
 
-    private Button exercise,stopW,advices,todo,calen;
+    private Button exercise,stopW,advices,todo,calen,btnbmi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,9 +22,13 @@ public class MainActivity2 extends AppCompatActivity {
         advices=findViewById(R.id.advices);
         todo=findViewById(R.id.todo);
         calen=findViewById(R.id.calen);
+        btnbmi=findViewById(R.id.btnbmi);
         initial();
+        initiala();
         initial1();
         initial2();
+        initialt();
+        initialbmi();
     }
 
     private void initial2() {
@@ -62,19 +68,36 @@ public class MainActivity2 extends AppCompatActivity {
 
     }
 
-   /* private void initiala() {
-        advices.setOnClickListener(new View.OnClickListener() {
+   private void initiala() {
+       advices.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+               Intent intent = new Intent();
+               intent.setClass(MainActivity2.this, Advices.class);
+               startActivity(intent);
+           }
+       });
+
+
+       }
+    private void initialt() {
+        todo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent();
-                intent.setClass(MainActivity2.this,Advices.class);
+                Intent intent = new Intent();
+                intent.setClass(MainActivity2.this, Todo.class);
                 startActivity(intent);
             }
         });
-
-
-    }*/
-
-
-
+    }
+    private void initialbmi() {
+          btnbmi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClass(MainActivity2.this,Bmi.class);
+                startActivity(intent);
+            }
+        });
+    }
 }
