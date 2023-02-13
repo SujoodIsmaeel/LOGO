@@ -1,5 +1,6 @@
 package com.example.logo;
 
+//define table name
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
@@ -8,7 +9,7 @@ import androidx.room.PrimaryKey;
 import java.io.Serializable;
 
 @Entity (tableName = "table_name")
-public class TodoData implements Serializable {
+public class MainData implements Serializable {
     //create id column
     @PrimaryKey(autoGenerate = true)
     private int ID;
@@ -32,6 +33,5 @@ public class TodoData implements Serializable {
 
     public void setText(String text) {
         this.text = text;
-    }
+    }}
 
-}

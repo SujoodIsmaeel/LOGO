@@ -13,6 +13,15 @@
         android:theme="@style/Theme.LOGO"
         tools:targetApi="31">
         <activity
+            android:name=".Regestration"
+            android:configChanges="orientation|screenSize"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity
             android:name=".Todo"
             android:exported="false">
             <meta-data

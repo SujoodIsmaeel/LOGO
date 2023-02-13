@@ -29,6 +29,8 @@ public class MainActivity2 extends AppCompatActivity {
         initial2();
         initialt();
         initialbmi();
+
+
     }
 
     private void initial2() {
@@ -95,7 +97,7 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent();
-                intent.setClass(MainActivity2.this,Bmi.class);
+               // intent.setClass(MainActivity2.this,Bmi.class);
                 startActivity(intent);
             }
         });
