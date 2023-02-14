@@ -173,19 +173,6 @@ public class LogInActivity2 extends AppCompatActivity {
             }
         });
 
-//        mSaveBtn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                String name = mNameEt.getText().toString();
-//                String pass = mpassEt.getText().toString();
-//
-//                //activity intent
-//                Intent intent = new Intent(LogInActivity2.this, MainActivity2.class);
-//                intent.putExtra("NAME", name);
-//                intent.putExtra("Pass", pass);
-//                startActivity(intent);
-//            }
-//        });
 
 
         signINButt.setOnClickListener(new View.OnClickListener() {
@@ -204,48 +191,8 @@ public class LogInActivity2 extends AppCompatActivity {
         });
 
 
-/* mAuth.signInWithEmailAndPassword(email, password)
-                        .addOnCompleteListener(LoginActivity.this, new OnCompleteListener<AuthResult>() {
-                            @Override
-                            public void onComplete(@NonNull Task<AuthResult> task) {
-                                if (task.isSuccessful()) {
-                                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                                    startActivity(intent);
-                                    finish();
-                                } else {
-                                    Log.e("LoginActivity", "Login with email failed.", task.getException());
-                                    Toast.makeText(LoginActivity.this, "Login failed. Please try again.", Toast.LENGTH_SHORT).show();
-                                }
-                            }
-                        });
-            }
-        });*/
-
 
     }
-
-    /*private void checkInstance(Bundle savedInstanceState) {
-        if(savedInstanceState != null){
-
-            emailTxt = savedInstanceState.getString("email");
-            passTxt = savedInstanceState.getString("Pass");
-
-            //emailTxt = savedInstanceState.getString("email");
-            //passTxt = savedInstanceState.getBoolean("Pass");
-        }
-    }
-
-    @Override
-    protected void onSaveInstanceState(Bundle outState){
-        super.onSaveInstanceState(outState);
-
-        outState.putString("email",emailTxt);
-        outState.putString("Pass",passTxt);
-        //outState.putInt("SECONDS", seconds);
-        //outState.putBoolean("RUNNING", running);
-
-
-    }*/
 
 
 
@@ -254,36 +201,36 @@ public class LogInActivity2 extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        Toast.makeText(getApplicationContext(),  "onStart", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getApplicationContext(),  "onStart", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Toast.makeText(getApplicationContext(),  "onStop", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getApplicationContext(),  "onStop", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Toast.makeText(getApplicationContext(),  "onPause", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getApplicationContext(),  "onPause", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Toast.makeText(getApplicationContext(),  "onResume", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getApplicationContext(),  "onResume", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Toast.makeText(getApplicationContext(),  "onDestroy", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getApplicationContext(),  "onDestroy", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
-        Toast.makeText(getApplicationContext(),  "onRestart", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getApplicationContext(),  "onRestart", Toast.LENGTH_SHORT).show();
     }
 }

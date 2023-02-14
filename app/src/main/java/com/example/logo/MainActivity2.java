@@ -22,7 +22,6 @@ public class MainActivity2 extends AppCompatActivity {
         advices=findViewById(R.id.advices);
         todo=findViewById(R.id.todo);
         calen=findViewById(R.id.calen);
-        btnbmi=findViewById(R.id.btnbmi);
         initial();
         initiala();
         initial1();
